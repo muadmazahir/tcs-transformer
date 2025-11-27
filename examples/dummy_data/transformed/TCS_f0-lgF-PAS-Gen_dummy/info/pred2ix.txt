@@ -1,0 +1,8 @@
+0	_bear_n_1
+1	_bird_n_1
+2	_cat_n_1
+3	_eat_v_1
+4	_quick_a_1
+5	_run_v_1
+6	_sad_a_1
+7	_slow_a_1

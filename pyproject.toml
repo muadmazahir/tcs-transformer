@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "tcs-transformer"
+version = "0.1.0"
+description = "Integration of Truth Conditional Semantics and Transformers"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "tcs_transformer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.0"
+torchvision = "^0.15.0"
+nltk = "3.7"
+pydelphin = "1.6.0"
+networkx = "2.8.4"
+pympler = "1.0.1"
+disjoint-set = "0.7.3"
+toposort = "1.7"
+tqdm = "^4.65.0"
+numpy = "^1.24.0"
+tensorboard = "^2.13.0"
+pygraphviz = "^1.11"  # Requires: brew install graphviz
+pandas = "^2.0.0"
+scipy = "^1.10.0"
+matplotlib = "^3.7.0"
+# Transformer training dependencies
+datasets = "^2.14.0"  # For loading training datasets
+transformers = "^4.35.0"  # For tokenizers
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.25.0"
+ruff = "^0.14.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

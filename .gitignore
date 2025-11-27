@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+ruff_cache/
+examples/erg/erg-1214-x86-64-0.9.34.dat
+examples/trained_models/model.pth

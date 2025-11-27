@@ -1,0 +1,13 @@
+0	_eat_v_1@ARG1
+1	_run_v_1@ARG0
+2	_bird_n_1@ARG0
+3	_slow_a_1@ARG0
+4	_quick_a_1@ARG0
+5	_eat_v_1@ARG0
+6	_cat_n_1@ARG0
+7	_sad_a_1@ARG0
+8	_bear_n_1@ARG0
+9	_sad_a_1@ARG1
+10	_quick_a_1@ARG1
+11	_slow_a_1@ARG1
+12	_run_v_1@ARG1
